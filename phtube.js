@@ -107,7 +107,7 @@ const AppentChild=(data)=>{
 
       });}//end if....
     if(data===false){
-        Emptycontainer.innerHTML=`<div class="flex items-center w-full h-screen mx-auto pb-52"><div class="flex flex-col items-center w-80 mx-auto"><img class="w-20 h-20" src="/icon.png"><p class="mt-4 font-bold text-center text-2xl">Oops!! Sorry, There is no content here</p></div></div>`
+        Emptycontainer.innerHTML=`<div class="flex items-center w-full h-screen mx-auto pb-52"><div class="flex flex-col items-center w-80 mx-auto"><img class="w-20 h-20" src="icon.png"><p class="mt-4 font-bold text-center text-2xl">Oops!! Sorry, There is no content here</p></div></div>`
     }else{
         Emptycontainer.innerHTML='';
 
